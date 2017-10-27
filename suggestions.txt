@@ -1,0 +1,16 @@
+1. dont use 4 spaces as identions!
+2. use '' instead of ""
+3. def = {
+	access: {  instead of def = {
+	"access": {
+4. "~" is not a good idea for a folder (bitch)
+5. try to use more often template strings
+"Command line: " + path.basename(process.argv[0]) + " " + path.basename(process.argv[1]) + " [root] [-s IP:port] [-w procs] [-k key cert] [-d]"
+`"Command line: ${path.basename(process.argv[0])} ${path.basename(process.argv[1])} [root] [-s IP:port] [-w procs] [-k key cert] [-d]`
+6. hahahaha?
+exports.saveDefault = function (cb) {
+	return fs.writeFile(file, JSON.stringify(exports.def, undefined, '\t'), cb);
+};
+
+In Dear
+Your Stalker aka. Niere
